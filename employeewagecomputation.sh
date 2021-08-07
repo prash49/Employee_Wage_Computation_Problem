@@ -33,5 +33,5 @@ do
     daily_wage=$(( no_of_hrs_per_day * wage_per_hr ))
     (( total_wage += daily_wage ))
     wage[$total_wage]=$daily_wage
-    echo "$daily_wage           $total_wage"
+echo "Day${total_working_days}          $daily_wage           $total_wage"
 done
